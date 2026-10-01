@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Happy Boyfriend's Day 💗</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: #f58fb3;
+      font-family: Arial, sans-serif;
+    }
+
+    .page {
+      width: 100%;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 35px;
+      text-align: center;
+    }
+
+    h1 {
+      color: white;
+      font-size: clamp(40px, 9vw, 90px);
+      font-weight: 900;
+      letter-spacing: 2px;
+    }
+
+    .next-button {
+      padding: 14px 32px;
+      border: none;
+      border-radius: 30px;
+      background: white;
+      color: #d94f7f;
+      font-size: 17px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    .next-button:active {
+      transform: scale(0.95);
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="page">
+
+    <h1>HAPPY BOYFRIEND'S DAY 💗</h1>
+
+    <button class="next-button" onclick="nextPage()">
+      NEXT →
+    </button>
+
+  </div>
+
+  <script>
+    function nextPage() {
+      alert("Page 2 coming soon 💗");
+    }
+  </script>
+
+</body>
+</html>
